@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container .section {
+    width: 80%;
+}
+
+.container .section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.container .section .categories {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.container .section .btn {
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #203b79;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 1px solid #102d70;
+    transition: all 0.3s ease;
+}
+
+.container .section .btn:hover {
+    color: #fff;
+    background: #203b79;
+}
+
+.container .section .categories .btn .mark {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #102d70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .section .categories .btn .mark.checked {
+    background-color: #203b79;
+    color: #fff;
+}
+
+.container .section .categories .btn .mark.checked::before {
+    content: '\2713'; /* Unicode for check mark */
+    font-size: 10px;
+    color: #fff;
+}

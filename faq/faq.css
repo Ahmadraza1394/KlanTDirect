@@ -1,0 +1,68 @@
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .accordion{
+    width: 80%;
+}
+
+
+.card{
+    margin: 15px 0;
+    border: none;
+}
+
+.card h2{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #203b79;
+    padding-bottom: 5px;
+}
+
+.card-header{
+    background-color: #fff;
+    border: none;
+}
+
+.card-header h2 button{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.card .card-body{
+    font-size: 1.2rem;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    color: #203b79;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+}
+
+.btn:focus{
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+
+@media (max-width: 1150px) {
+
+    .card-header h2 button{
+        font-size: 1.3rem;
+    }
+    
+    
+}

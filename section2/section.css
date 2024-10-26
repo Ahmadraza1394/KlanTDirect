@@ -1,0 +1,143 @@
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.row{
+    width: 80%;
+    min-height: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.row .box{
+    width: 50%;
+}
+
+.img-box{
+    min-height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-box{
+    height: 100%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+.section-heading {
+    display: inline;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.sub-sec{
+    width: 80%;
+}
+
+.sub-sec h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sub-sec p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1000px) {
+    
+  
+    /* .row .box{
+        width: 100%;
+    } */
+
+    
+.image {
+    height: 100%;
+}
+    
+    .section-heading {
+        width: 90%;
+        font-size: 2.2rem;
+    }
+
+    .sub-sec{
+        width: 95%;
+    }
+    
+    .sub-sec h4{
+        font-size: 1.8rem;
+    }
+    
+    .sub-sec p{
+        font-size: .9rem;
+        line-height: 26px;
+    }
+    
+}
+
+
+@media (max-width: 890px) {
+
+    .row{
+        width: 90%;
+    }
+  
+    .row .box{
+        width: 100%;
+    }
+
+    
+.image {
+    height: 100%;
+}
+    
+    .section-heading {
+        width: 90%;
+        font-size: 2.2rem;
+    }
+
+    .sub-sec{
+        width: 90%;
+    }
+    
+    .sub-sec h4{
+        font-size: 1.8rem;
+    }
+    
+    .sub-sec p{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    
+}
+
